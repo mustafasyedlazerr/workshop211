@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Party Planner</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="partyForm">
+    <h2>Mustafa's Party Scheduler</h2>
+    <input type="text" id="name" placeholder="Name">
+    <input type="text" id="date" placeholder="Date">
+    <input type="text" id="time" placeholder="Time">
+    <input type="text" id="location" placeholder="Location">
+    <textarea id="description" placeholder="Description"></textarea>
+    <button onclick="addParty()">Add Party</button>
+</div>
+<div id="partyList">
+    <h2>Upcoming Parties</h2>
+    <ul id="parties"></ul>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
